@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>testeq</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="epub_ob.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">a+b=c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+cc+c+c+c+c+c+c+c</annotation></semantics></math></p>
+<p>this is a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">a+b=c</annotation></semantics></math>. oh yeah</p>
+</div>
+<div class="cell markdown">
+<p>當資產的價格序列 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>,</mo><msub><mi>P</mi><mn>2</mn></msub><mo>,</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>,</mo><msub><mi>P</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">P_1,P_2,...,P_t</annotation></semantics></math> 已知時，該資產對應的 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math> 期簡單收益率 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo><msub><mi>R</mi><mrow><mi>k</mi><mo>+</mo><mn>2</mn></mrow></msub><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>,</mo><msub><mi>R</mi><mi>t</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">R_{k+1}(k),R_{k+2}(k),...,R_t(k)</annotation></semantics></math> 則可以計算得知。</p>
+<p>表 19.1 給出了 2015 年 1 月 5 日至 1 月 12 日台積電股票每日收盤價（單位：元）資料：</p>
+<blockquote>
+<p>表 19.1: 台積電企業股票從 2015 年 1 月 5 日到 1 月 12 日的日度收盤價</p>
+</blockquote>
+<table>
+<thead>
+<tr class="header">
+<th>日期</th>
+<th>01-05</th>
+<th>01-06</th>
+<th>01-07</th>
+<th>01-08</th>
+<th>01-09</th>
+<th>01-12</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>價格</td>
+<td>130.10</td>
+<td>124.50</td>
+<td>124.97</td>
+<td>128.70</td>
+<td>124.97</td>
+<td>123.10</td>
+</tr>
+</tbody>
+</table>
+<p>表中給出台積電企業 2015 年 1 月份前七個交易日的股票收盤價（1 月 10 日和 11 日為周六和周日，非交易日）</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2"></a>stock<span class="op">=</span>pd.read_csv(<span class="st">&#39;.</span><span class="ch">\\</span><span class="st">PythonBook_code_data</span><span class="ch">\\</span><span class="st">part3</span><span class="ch">\\</span><span class="st">019</span><span class="ch">\\</span><span class="st">2330.csv&#39;</span>,index_col<span class="op">=</span><span class="st">&#39;Date&#39;</span>,sep<span class="op">=</span><span class="st">&#39;</span><span class="ch">\t</span><span class="st">&#39;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a>stock.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Close</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2015-01-05</th>
+      <td>130.10</td>
+      <td>131.03</td>
+      <td>131.03</td>
+      <td>128.23</td>
+      <td>32214</td>
+    </tr>
+    <tr>
+      <th>2015-01-06</th>
+      <td>124.50</td>
+      <td>128.23</td>
+      <td>128.23</td>
+      <td>124.04</td>
+      <td>67649</td>
+    </tr>
+    <tr>
+      <th>2015-01-07</th>
+      <td>124.97</td>
+      <td>124.50</td>
+      <td>125.90</td>
+      <td>124.50</td>
+      <td>43886</td>
+    </tr>
+    <tr>
+      <th>2015-01-08</th>
+      <td>128.70</td>
+      <td>127.30</td>
+      <td>128.70</td>
+      <td>126.83</td>
+      <td>42551</td>
+    </tr>
+    <tr>
+      <th>2015-01-09</th>
+      <td>124.97</td>
+      <td>125.90</td>
+      <td>126.37</td>
+      <td>124.04</td>
+      <td>61920</td>
+    </tr>
+    <tr>
+      <th>2015-01-12</th>
+      <td>123.10</td>
+      <td>123.57</td>
+      <td>124.50</td>
+      <td>123.10</td>
+      <td>30402</td>
+    </tr>
+    <tr>
+      <th>2015-01-13</th>
+      <td>123.57</td>
+      <td>122.17</td>
+      <td>124.04</td>
+      <td>121.71</td>
+      <td>38093</td>
+    </tr>
+    <tr>
+      <th>2015-01-14</th>
+      <td>121.24</td>
+      <td>123.57</td>
+      <td>124.04</td>
+      <td>121.24</td>
+      <td>49447</td>
+    </tr>
+    <tr>
+      <th>2015-01-15</th>
+      <td>122.64</td>
+      <td>122.64</td>
+      <td>124.04</td>
+      <td>122.64</td>
+      <td>40996</td>
+    </tr>
+    <tr>
+      <th>2015-01-16</th>
+      <td>127.77</td>
+      <td>130.56</td>
+      <td>130.56</td>
+      <td>126.83</td>
+      <td>129035</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<ol>
+<li><p>除息價：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtext mathvariant="normal">除息價=除息日前一天的收盤價-每股紅利現金價</mtext><annotation encoding="application/x-tex">\mbox{除息價=除息日前一天的收盤價-每股紅利現金價}</annotation></semantics></math></p>
+<p>舉一個例子來說，2014 年 3 月 28 日，每上市企業的股東大會上決定 2013 年度股利發放方案為：每股派 0.3895 元（稅後），除權除息日、過戶基準日和紅利發放日分別為 5 月 7 日、為 5 月 8 日和 5 月 13 日。5 月 6 日，該企業股票的收盤價為 7.87 元，因此，其除息價格為：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7.87</mn><mo>−</mo><mn>0.3895</mn><mo>=</mo><mn>7.4805</mn><mtext mathvariant="normal">元</mtext></mrow><annotation encoding="application/x-tex">7.87-0.3895=7.4805\mbox{元}</annotation></semantics></math></p>
+<p>而該企業股票在 5 月 7 日的開盤價也調整為 7.48 元，最終收盤價為 7.35 元。</p>
+<p>一般來說，第 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> 期為除權除息日，股利分紅為 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>D</mi><mi>t</mi></msub><annotation encoding="application/x-tex">D_t</annotation></semantics></math>，則第 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> 期的單期收益率：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>t</mi></msub><mo>−</mo><msub><mi>P</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>D</mi><mi>t</mi></msub></mrow><msub><mi>P</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mfrac><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>t</mi></msub><mo>+</mo><msub><mi>D</mi><mi>t</mi></msub></mrow><msub><mi>P</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mfrac><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">R_t=\frac{P_t-P_{t-1}+D_t}{P_{t-1}}=\frac{P_t+D_t}{P_{t-1}}-1</annotation></semantics></math></p>
+<p>5 月 7 日是除權除息日，在這一天購入的股票是有權利分得股利的，考慮到價格變動及紅利，假設 5 月 6 日的價格為 7.35，從 5 月 6 日到 7 日，投資人的單期簡單收益率為：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mstyle mathvariant="normal"><mi>M</mi><mi>a</mi><mi>y</mi><mn>8</mn><mi>t</mi><mi>h</mi></mstyle></msub><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mstyle mathvariant="normal"><mi>M</mi><mi>a</mi><mi>y</mi><mn>8</mn><mi>t</mi><mi>h</mi></mstyle></msub><mo>−</mo><msub><mi>P</mi><mstyle mathvariant="normal"><mi>M</mi><mi>a</mi><mi>y</mi><mn>7</mn><mi>t</mi><mi>h</mi></mstyle></msub><mo>+</mo><mstyle mathvariant="italic"><mi>𝐷</mi><mi>𝑖</mi><mi>𝑣</mi></mstyle></mrow><msub><mi>P</mi><mstyle mathvariant="normal"><mi>M</mi><mi>a</mi><mi>y</mi><mn>7</mn><mi>t</mi><mi>h</mi></mstyle></msub></mfrac><mo>=</mo><mfrac><mrow><mn>7.35</mn><mo>−</mo><mn>7.87</mn><mo>+</mo><mn>0.3895</mn></mrow><mn>7.87</mn></mfrac><mo>≈</mo><mo>−</mo><mn>1.658</mn><mi>%</mi></mrow><annotation encoding="application/x-tex">R_{\mathrm{May8th}}=\frac{P_{\mathrm{May8th}}-P_{\mathrm{May7th}}+\mathit{Div}}{P_{\mathrm{May7th}}}=\frac{7.35-7.87+0.3895}{7.87}\approx-1.658\%</annotation></semantics></math></p></li>
+<li><p>除權價：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>除</mi><mi>權</mi><mi>價</mi><mo>=</mo><mi>除</mi><mi>息</mi><mi>日</mi><mi>前</mi><mi>一</mi><mi>天</mi><mi>的</mi><mi>收</mi><mi>盤</mi><mi>價</mi><mo>÷</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>每</mi><mi>股</mi><mi>送</mi><mi>紅</mi><mi>利</mi><mi>股</mi><mi>數</mi><mi>或</mi><mi>轉</mi><mi>增</mi><mi>股</mi><mi>數</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">除權價=除息日前一天的收盤價\div(1+每股送紅利股數或轉增股數)</annotation></semantics></math></p></li>
+</ol>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display,HTML </span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>sp.init_printing(use_unicode<span class="op">=</span><span class="va">True</span>,use_latex<span class="op">=</span><span class="va">True</span>,euler<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-2"><a href="#cb4-2"></a>a,b,c,x,x1,x2<span class="op">=</span>sp.symbols(<span class="st">&quot;a,b,c,x,x_1,x_2&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>eq0 <span class="op">=</span>(a<span class="op">*</span>x<span class="op">**</span><span class="dv">2</span><span class="op">+</span>b<span class="op">*</span>x<span class="op">+</span>c<span class="op">-</span><span class="dv">0</span>)</span>
+<span id="cb4-4"><a href="#cb4-4"></a>eq1<span class="op">=</span>sp.solve(eq0,x)</span>
+<span id="cb4-5"><a href="#cb4-5"></a>eq1a<span class="op">=</span>eq1[<span class="dv">0</span>]</span>
+<span id="cb4-6"><a href="#cb4-6"></a>eq1b<span class="op">=</span>eq1[<span class="dv">1</span>]</span>
+<span id="cb4-7"><a href="#cb4-7"></a>display(sp.Eq(x1,eq1a))</span>
+<span id="cb4-8"><a href="#cb4-8"></a>display(sp.Eq(x2,eq1b))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a>HTML(<span class="st">&#39;&lt;span&gt; Left and                                  &lt;/span&gt;&#39;</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>     <span class="st">&#39;&lt;span style=&quot;float:right&quot;&gt; ...right on same line &lt;/span&gt;&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<span> Left and                                  </span><span style="float:right"> ...right on same line </span>
+</div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>expr<span class="op">=</span><span class="st">&#39;$a_1+a_23=7 \sqrt(2)$&#39;</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a>HTML(<span class="st">&quot;&lt;span&gt;&quot;</span> <span class="op">+</span><span class="st">&#39;Example Latex expression evaluated by MathJax: &#39;</span> <span class="op">+</span> <span class="bu">str</span>(expr) <span class="op">+</span><span class="st">&quot;&lt;/span&gt;&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<span>Example Latex expression evaluated by MathJax: $a_1+a_23=7 \sqrt(2)$</span>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a>str0<span class="op">=</span>sp.latex(eq1a)</span>
+<span id="cb7-2"><a href="#cb7-2"></a>str1<span class="op">=</span>sp.latex(eq1b)</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a>expr<span class="op">=</span><span class="st">&#39;$&#39;</span><span class="op">+</span>str0<span class="op">+</span><span class="st">&#39;$&#39;</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a>HTML(<span class="st">&#39;&lt;span style=&quot;font-size:120%&quot;&gt;&#39;</span> <span class="op">+</span><span class="st">&#39;Equation:&#39;</span> <span class="op">+</span> <span class="bu">str</span>(expr) <span class="op">+</span><span class="st">&#39;&lt;/span&gt;&#39;</span></span>
+<span id="cb8-3"><a href="#cb8-3"></a>     <span class="st">&#39;&lt;span style=&quot;float:right&quot;   &gt; (eq 1)  &lt;/span&gt;&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a><span class="kw">def</span> eqNumber(eqText,eq,eqLabel):</span>
+<span id="cb9-2"><a href="#cb9-2"></a>   <span class="bu">str</span><span class="op">=</span>sp.latex(eq) <span class="co">#Convert sympy object to Latex</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a>   expr<span class="op">=</span><span class="st">&#39;$&#39;</span><span class="op">+</span><span class="bu">str</span><span class="op">+</span><span class="st">&#39;$&#39;</span> <span class="co">#Add $ signs</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a>   display( HTML(<span class="st">&#39;&lt;span style=&quot;font-size:120%&quot;&gt;&#39;</span> <span class="op">+</span>eqText <span class="op">+</span> (expr) <span class="op">+</span><span class="st">&#39;&lt;/span&gt;&#39;</span></span>
+<span id="cb9-5"><a href="#cb9-5"></a>                 <span class="st">&#39;&lt;span style=&quot;float:right&quot;   &gt;&#39;</span> <span class="op">+</span>eqLabel<span class="op">+</span>         <span class="st">&#39;&lt;/span&gt;&#39;</span>) )</span>
+<span id="cb9-6"><a href="#cb9-6"></a>         </span>
+<span id="cb9-7"><a href="#cb9-7"></a></span>
+<span id="cb9-8"><a href="#cb9-8"></a>eqNumber(<span class="st">&#39;Solution 1: &#39;</span>,eq1a,<span class="st">&#39;(1)&#39;</span>)</span>
+<span id="cb9-9"><a href="#cb9-9"></a>eqNumber(<span class="st">&#39;Solution 2: &#39;</span>,eq1b,<span class="st">&#39;(2)&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Markdown</span>
+<span id="cb10-2"><a href="#cb10-2"></a></span>
+<span id="cb10-3"><a href="#cb10-3"></a>one <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a>two <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb10-5"><a href="#cb10-5"></a>three <span class="op">=</span> one <span class="op">+</span> two</span>
+<span id="cb10-6"><a href="#cb10-6"></a></span>
+<span id="cb10-7"><a href="#cb10-7"></a>Markdown(<span class="st">&quot;# Title&quot;</span>)</span>
+<span id="cb10-8"><a href="#cb10-8"></a>Markdown(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb10-9"><a href="#cb10-9"></a><span class="st"># Math</span></span>
+<span id="cb10-10"><a href="#cb10-10"></a><span class="st">## Addition</span></span>
+<span id="cb10-11"><a href="#cb10-11"></a><span class="st">Here is a simple addition example: </span><span class="sc">{one}</span><span class="st"> + </span><span class="sc">{two}</span><span class="st"> = </span><span class="sc">{three}</span><span class="st"> and $d=1+2$</span></span>
+<span id="cb10-12"><a href="#cb10-12"></a></span>
+<span id="cb10-13"><a href="#cb10-13"></a><span class="st">$$a=b+c$$</span></span>
+<span id="cb10-14"><a href="#cb10-14"></a></span>
+<span id="cb10-15"><a href="#cb10-15"></a><span class="st">* 保費計算</span></span>
+<span id="cb10-16"><a href="#cb10-16"></a><span class="st">&quot;&quot;&quot;</span>.<span class="bu">format</span>(one<span class="op">=</span>one, two<span class="op">=</span>two, three<span class="op">=</span>three))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>&lt;IPython.core.display.Markdown object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Math</span>
+<span id="cb12-2"><a href="#cb12-2"></a>Math(<span class="vs">r&#39;F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>&lt;IPython.core.display.Math object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Latex</span>
+<span id="cb14-2"><a href="#cb14-2"></a>Latex(<span class="vs">r&quot;&quot;&quot;\begin</span><span class="sc">{eqnarray}</span></span>
+<span id="cb14-3"><a href="#cb14-3"></a><span class="vs">\nabla \times \vec{\mathbf</span><span class="sc">{B}</span><span class="vs">} -\, \frac1c\, \frac{\partial\vec{\mathbf</span><span class="sc">{E}}}</span><span class="vs">{\partial t} &amp; = \frac{4\pi}</span><span class="sc">{c}</span><span class="vs">\vec{\mathbf</span><span class="sc">{j}</span><span class="vs">} \\</span></span>
+<span id="cb14-4"><a href="#cb14-4"></a><span class="vs">\nabla \cdot \vec{\mathbf</span><span class="sc">{E}</span><span class="vs">} &amp; = 4 \pi \rho \\</span></span>
+<span id="cb14-5"><a href="#cb14-5"></a><span class="vs">\nabla \times \vec{\mathbf</span><span class="sc">{E}</span><span class="vs">}\, +\, \frac1c\, \frac{\partial\vec{\mathbf</span><span class="sc">{B}}}</span><span class="vs">{\partial t} &amp; = \vec{\mathbf</span><span class="sc">{0}</span><span class="vs">} \\</span></span>
+<span id="cb14-6"><a href="#cb14-6"></a><span class="vs">\nabla \cdot \vec{\mathbf</span><span class="sc">{B}</span><span class="vs">} &amp; = 0 </span></span>
+<span id="cb14-7"><a href="#cb14-7"></a><span class="vs">\end</span><span class="sc">{eqnarray}</span><span class="vs">&quot;&quot;&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>&lt;IPython.core.display.Latex object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1"></a><span class="op">%%</span>latex</span>
+<span id="cb16-2"><a href="#cb16-2"></a><span class="op">\</span>begin{align}</span>
+<span id="cb16-3"><a href="#cb16-3"></a><span class="op">\</span>nabla <span class="op">\</span>times <span class="op">\</span>vec{<span class="op">\</span>mathbf{B}} <span class="op">-\</span>, <span class="op">\</span>frac1c<span class="op">\</span>, <span class="op">\</span>frac{<span class="op">\</span>partial<span class="op">\</span>vec{<span class="op">\</span>mathbf{E}}}{<span class="op">\</span>partial t} <span class="op">&amp;</span> <span class="op">=</span> <span class="op">\</span>frac{<span class="dv">4</span><span class="op">\</span>pi}{c}<span class="op">\</span>vec{<span class="op">\</span>mathbf{j}} <span class="op">\\</span></span>
+<span id="cb16-4"><a href="#cb16-4"></a><span class="op">\</span>nabla <span class="op">\</span>cdot <span class="op">\</span>vec{<span class="op">\</span>mathbf{E}} <span class="op">&amp;</span> <span class="op">=</span> <span class="dv">4</span> <span class="op">\</span>pi <span class="op">\</span>rho <span class="op">\\</span></span>
+<span id="cb16-5"><a href="#cb16-5"></a><span class="op">\</span>nabla <span class="op">\</span>times <span class="op">\</span>vec{<span class="op">\</span>mathbf{E}}<span class="op">\</span>, <span class="op">+\</span>, <span class="op">\</span>frac1c<span class="op">\</span>, <span class="op">\</span>frac{<span class="op">\</span>partial<span class="op">\</span>vec{<span class="op">\</span>mathbf{B}}}{<span class="op">\</span>partial t} <span class="op">&amp;</span> <span class="op">=</span> <span class="op">\</span>vec{<span class="op">\</span>mathbf{<span class="dv">0</span>}} <span class="op">\\</span></span>
+<span id="cb16-6"><a href="#cb16-6"></a><span class="op">\</span>nabla <span class="op">\</span>cdot <span class="op">\</span>vec{<span class="op">\</span>mathbf{B}} <span class="op">&amp;</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb16-7"><a href="#cb16-7"></a><span class="op">\</span>end{align}</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Latex object&gt;</code></pre>
+</div>
+</div>
+</body>
+</html>
